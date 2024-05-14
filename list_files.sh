@@ -1,2 +1,2 @@
-# Execute the 'ls' command
+#!/bin/bash
 ls
