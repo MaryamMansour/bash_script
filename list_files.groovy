@@ -8,8 +8,9 @@ pipeline {
                 git 'https://github.com/MaryamMansour/bash_script.git'
                 
                 // List all files and directories
-                sh 'ls -R'
+                bat 'dir /s /b'
             }
         }
     }
 }
+
